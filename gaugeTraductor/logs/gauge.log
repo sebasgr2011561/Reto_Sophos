@@ -1,0 +1,1518 @@
+12-06-2020 11:30:01.539 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 11:30:01.553 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 11:30:01.557 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 11:30:01.559 [Gauge] [DEBUG] Parsing started.
+12-06-2020 11:30:01.559 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 11:30:01.576 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 11:30:01.576 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 11:30:01.578 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 11:30:01.578 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 11:30:01.581 [Gauge] [DEBUG] Staring java runner
+12-06-2020 11:30:02.531 [Gauge] [DEBUG] Checking updates...
+12-06-2020 11:30:02.534 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:30:02.604 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 11:30:02.604 [Gauge] [DEBUG] Validation started.
+12-06-2020 11:30:03.309 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:30:03.503 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:30:03.683 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:30:07.095 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 11:30:07.095 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 11:30:07.105 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 11:30:07.105 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 11:30:07.105 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 11:30:07.105 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 11:30:07.160 [Gauge] [DEBUG] Validation completed.
+12-06-2020 11:30:07.160 [Gauge] [DEBUG] Run started
+12-06-2020 11:30:07.161 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 11:30:07.366 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52640
+12-06-2020 11:30:07.368 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52640
+12-06-2020 11:30:07.368 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 11:30:21.197 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 11:30:21.663 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 11:30:21.663 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 11:30:21.663 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 11:30:21.664 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 11:30:22.003 [Gauge] [INFO] Closing connection [127.0.0.1:52634] cause: read tcp 127.0.0.1:52625->127.0.0.1:52634: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 11:30:22.166 [Gauge] [DEBUG] Runner with PID:7656 has exited
+12-06-2020 11:30:22.166 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:30:22.166 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:30:22.166 [Gauge] [INFO] 
+Total time taken: 14.035s
+12-06-2020 11:30:22.167 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 11:49:54.896 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 11:49:54.899 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 11:49:54.900 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 11:49:54.901 [Gauge] [DEBUG] Parsing started.
+12-06-2020 11:49:54.901 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 11:49:54.907 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 11:49:54.907 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 11:49:54.908 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 11:49:54.908 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 11:49:54.919 [Gauge] [DEBUG] Staring java runner
+12-06-2020 11:49:55.476 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 11:49:55.476 [Gauge] [DEBUG] Validation started.
+12-06-2020 11:49:55.765 [Gauge] [DEBUG] Checking updates...
+12-06-2020 11:49:55.773 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:49:56.219 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:49:56.363 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:49:56.502 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:49:59.858 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 11:49:59.858 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 11:49:59.868 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 11:49:59.868 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 11:49:59.868 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 11:49:59.868 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 11:49:59.928 [Gauge] [DEBUG] Validation completed.
+12-06-2020 11:49:59.928 [Gauge] [DEBUG] Run started
+12-06-2020 11:49:59.930 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 11:49:59.972 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53217
+12-06-2020 11:49:59.974 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53217
+12-06-2020 11:49:59.974 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 11:50:13.622 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 11:50:13.659 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 11:50:13.659 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 11:50:13.659 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 11:50:13.659 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 11:50:14.154 [Gauge] [INFO] Closing connection [127.0.0.1:53208] cause: read tcp 127.0.0.1:53204->127.0.0.1:53208: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 11:50:14.264 [Gauge] [DEBUG] Runner with PID:2224 has exited
+12-06-2020 11:50:14.264 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 11:50:14.264 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 11:50:14.264 [Gauge] [INFO] 
+Total time taken: 13.693s
+12-06-2020 11:50:14.264 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 11:51:29.171 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 11:51:29.173 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 11:51:29.176 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 11:51:29.177 [Gauge] [DEBUG] Parsing started.
+12-06-2020 11:51:29.177 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 11:51:29.187 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 11:51:29.187 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 11:51:29.195 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 11:51:29.195 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 11:51:29.197 [Gauge] [DEBUG] Staring java runner
+12-06-2020 11:51:29.752 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 11:51:29.752 [Gauge] [DEBUG] Validation started.
+12-06-2020 11:51:30.107 [Gauge] [DEBUG] Checking updates...
+12-06-2020 11:51:30.112 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:51:30.584 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:51:30.737 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:51:30.881 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:51:34.138 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 11:51:34.139 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 11:51:34.148 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 11:51:34.148 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 11:51:34.149 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 11:51:34.149 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 11:51:34.208 [Gauge] [DEBUG] Validation completed.
+12-06-2020 11:51:34.208 [Gauge] [DEBUG] Run started
+12-06-2020 11:51:34.209 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 11:51:34.256 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53330
+12-06-2020 11:51:34.258 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53330
+12-06-2020 11:51:34.258 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 11:51:47.572 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 11:51:47.607 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 11:51:47.607 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 11:51:47.607 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 11:51:47.608 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 11:51:47.959 [Gauge] [INFO] Closing connection [127.0.0.1:53322] cause: read tcp 127.0.0.1:53317->127.0.0.1:53322: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 11:51:48.113 [Gauge] [DEBUG] Runner with PID:9736 has exited
+12-06-2020 11:51:48.113 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:51:48.113 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:51:48.113 [Gauge] [INFO] 
+Total time taken: 13.363s
+12-06-2020 11:51:48.114 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 11:53:27.234 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 11:53:27.235 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 11:53:27.236 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 11:53:27.236 [Gauge] [DEBUG] Parsing started.
+12-06-2020 11:53:27.236 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 11:53:27.241 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 11:53:27.241 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 11:53:27.246 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 11:53:27.246 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 11:53:27.248 [Gauge] [DEBUG] Staring java runner
+12-06-2020 11:53:27.517 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 11:53:27.517 [Gauge] [DEBUG] Validation started.
+12-06-2020 11:53:28.131 [Gauge] [DEBUG] Checking updates...
+12-06-2020 11:53:28.135 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:53:28.860 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:53:29.084 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:53:29.279 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:53:32.334 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 11:53:32.334 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 11:53:32.344 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 11:53:32.344 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 11:53:32.345 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 11:53:32.345 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 11:53:32.404 [Gauge] [DEBUG] Validation completed.
+12-06-2020 11:53:32.405 [Gauge] [DEBUG] Run started
+12-06-2020 11:53:32.406 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 11:53:32.445 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53464
+12-06-2020 11:53:32.447 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53464
+12-06-2020 11:53:32.447 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 11:53:46.041 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 11:53:46.067 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 11:53:46.067 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 11:53:46.067 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 11:53:46.068 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 11:53:46.407 [Gauge] [INFO] Closing connection [127.0.0.1:53456] cause: read tcp 127.0.0.1:53452->127.0.0.1:53456: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 11:53:46.472 [Gauge] [DEBUG] Runner with PID:4180 has exited
+12-06-2020 11:53:46.472 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:53:46.472 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:53:46.472 [Gauge] [INFO] 
+Total time taken: 13.635s
+12-06-2020 11:53:46.473 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 11:54:23.192 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 11:54:23.195 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 11:54:23.196 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 11:54:23.197 [Gauge] [DEBUG] Parsing started.
+12-06-2020 11:54:23.197 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 11:54:23.204 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 11:54:23.204 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 11:54:23.205 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 11:54:23.205 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 11:54:23.207 [Gauge] [DEBUG] Staring java runner
+12-06-2020 11:54:23.746 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 11:54:23.746 [Gauge] [DEBUG] Validation started.
+12-06-2020 11:54:24.085 [Gauge] [DEBUG] Checking updates...
+12-06-2020 11:54:24.089 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:54:24.565 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:54:24.732 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:54:25.496 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:54:28.128 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 11:54:28.128 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 11:54:28.138 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 11:54:28.138 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 11:54:28.139 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 11:54:28.139 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 11:54:28.200 [Gauge] [DEBUG] Validation completed.
+12-06-2020 11:54:28.200 [Gauge] [DEBUG] Run started
+12-06-2020 11:54:28.202 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 11:54:28.240 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53556
+12-06-2020 11:54:28.242 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53556
+12-06-2020 11:54:28.242 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 11:54:44.560 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 11:54:44.592 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 11:54:44.592 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 11:54:44.593 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 11:54:44.593 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 11:54:44.939 [Gauge] [INFO] Closing connection [127.0.0.1:53546] cause: read tcp 127.0.0.1:53542->127.0.0.1:53546: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 11:54:45.098 [Gauge] [DEBUG] Runner with PID:15780 has exited
+12-06-2020 11:54:45.098 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:54:45.098 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:54:45.098 [Gauge] [INFO] 
+Total time taken: 16.359s
+12-06-2020 11:54:45.099 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 11:55:37.850 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 11:55:37.852 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 11:55:37.853 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 11:55:37.854 [Gauge] [DEBUG] Parsing started.
+12-06-2020 11:55:37.854 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 11:55:37.860 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 11:55:37.860 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 11:55:37.861 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 11:55:37.861 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 11:55:37.864 [Gauge] [DEBUG] Staring java runner
+12-06-2020 11:55:38.533 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 11:55:38.533 [Gauge] [DEBUG] Validation started.
+12-06-2020 11:55:38.911 [Gauge] [DEBUG] Checking updates...
+12-06-2020 11:55:38.916 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:55:39.354 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:55:39.486 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:55:39.591 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:55:42.965 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 11:55:42.965 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 11:55:42.974 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 11:55:42.974 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 11:55:42.975 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 11:55:42.975 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 11:55:43.032 [Gauge] [DEBUG] Validation completed.
+12-06-2020 11:55:43.032 [Gauge] [DEBUG] Run started
+12-06-2020 11:55:43.034 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 11:55:43.182 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53663
+12-06-2020 11:55:43.184 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53663
+12-06-2020 11:55:43.184 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 11:55:56.900 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 11:55:56.927 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 11:55:56.927 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 11:55:56.927 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 11:55:56.927 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 11:55:57.278 [Gauge] [INFO] Closing connection [127.0.0.1:53654] cause: read tcp 127.0.0.1:53646->127.0.0.1:53654: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 11:55:57.432 [Gauge] [DEBUG] Runner with PID:2980 has exited
+12-06-2020 11:55:57.432 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:55:57.432 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:55:57.432 [Gauge] [INFO] 
+Total time taken: 13.866s
+12-06-2020 11:55:57.433 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 11:56:43.752 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 11:56:43.754 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 11:56:43.754 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 11:56:43.755 [Gauge] [DEBUG] Parsing started.
+12-06-2020 11:56:43.755 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 11:56:43.760 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 11:56:43.760 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 11:56:43.760 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 11:56:43.760 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 11:56:43.761 [Gauge] [DEBUG] Staring java runner
+12-06-2020 11:56:44.273 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 11:56:44.273 [Gauge] [DEBUG] Validation started.
+12-06-2020 11:56:44.805 [Gauge] [DEBUG] Checking updates...
+12-06-2020 11:56:44.809 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:56:45.355 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:56:45.484 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:56:45.621 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 11:56:48.608 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 11:56:48.608 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 11:56:48.618 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 11:56:48.618 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 11:56:48.618 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 11:56:48.618 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 11:56:48.673 [Gauge] [DEBUG] Validation completed.
+12-06-2020 11:56:48.673 [Gauge] [DEBUG] Run started
+12-06-2020 11:56:48.674 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 11:56:48.719 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53774
+12-06-2020 11:56:48.722 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53774
+12-06-2020 11:56:48.722 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 11:57:22.387 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 11:57:22.414 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 11:57:22.414 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 11:57:22.414 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 11:57:22.415 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 11:57:22.904 [Gauge] [INFO] Closing connection [127.0.0.1:53763] cause: read tcp 127.0.0.1:53759->127.0.0.1:53763: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 11:57:23.019 [Gauge] [DEBUG] Runner with PID:16128 has exited
+12-06-2020 11:57:23.019 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 11:57:23.019 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 11:57:23.019 [Gauge] [INFO] 
+Total time taken: 33.711s
+12-06-2020 11:57:23.019 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:01:07.774 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:01:07.776 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:01:07.776 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:01:07.777 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:01:07.777 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:01:07.783 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:01:07.784 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:01:07.785 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:01:07.785 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:01:07.786 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:01:08.255 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:01:08.255 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:01:08.317 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:01:08.320 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:01:08.768 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:01:08.887 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:01:09.035 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:01:12.407 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:01:12.407 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:01:12.415 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:01:12.415 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:01:12.416 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:01:12.416 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:01:12.460 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:01:12.461 [Gauge] [DEBUG] Run started
+12-06-2020 12:01:12.462 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:01:12.493 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54006
+12-06-2020 12:01:12.494 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54006
+12-06-2020 12:01:12.494 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:01:45.306 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:01:45.320 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:01:45.320 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:01:45.320 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:01:45.320 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:01:45.802 [Gauge] [INFO] Closing connection [127.0.0.1:53997] cause: read tcp 127.0.0.1:53993->127.0.0.1:53997: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:01:45.922 [Gauge] [DEBUG] Runner with PID:7312 has exited
+12-06-2020 12:01:45.922 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:01:45.922 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 12:01:45.922 [Gauge] [INFO] 
+Total time taken: 32.845s
+12-06-2020 12:01:45.923 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:08:02.952 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:08:02.955 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:08:02.956 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:08:02.957 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:08:02.957 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:08:02.963 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:08:02.964 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:08:02.964 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:08:02.965 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:08:02.967 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:08:03.525 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:08:03.525 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:08:04.101 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:08:04.105 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:08:04.665 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:08:04.818 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:08:04.988 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:08:07.530 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:08:07.530 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:08:07.537 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:08:07.537 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:08:07.538 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:08:07.538 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:08:07.583 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:08:07.583 [Gauge] [DEBUG] Run started
+12-06-2020 12:08:07.584 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:08:07.618 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54352
+12-06-2020 12:08:07.619 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54352
+12-06-2020 12:08:07.619 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:08:21.174 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:08:21.199 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:08:21.200 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:08:21.200 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:08:21.200 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:08:21.685 [Gauge] [INFO] Closing connection [127.0.0.1:54344] cause: read tcp 127.0.0.1:54339->127.0.0.1:54344: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:08:21.804 [Gauge] [DEBUG] Runner with PID:11916 has exited
+12-06-2020 12:08:21.804 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:08:21.804 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:08:21.804 [Gauge] [INFO] 
+Total time taken: 13.59s
+12-06-2020 12:08:21.804 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:09:01.304 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:09:01.307 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:09:01.308 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:09:01.310 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:09:01.310 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:09:01.318 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:09:01.318 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:09:01.319 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:09:01.319 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:09:01.321 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:09:01.788 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:09:01.788 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:09:02.023 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:09:02.026 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:09:02.463 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:09:02.581 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:09:02.740 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:09:05.960 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:09:05.960 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:09:05.968 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:09:05.968 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:09:05.968 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:09:05.968 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:09:06.015 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:09:06.015 [Gauge] [DEBUG] Run started
+12-06-2020 12:09:06.016 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:09:06.048 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54465
+12-06-2020 12:09:06.050 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54465
+12-06-2020 12:09:06.050 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:09:19.187 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:09:19.214 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:09:19.214 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:09:19.214 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:09:19.215 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:09:19.703 [Gauge] [INFO] Closing connection [127.0.0.1:54456] cause: read tcp 127.0.0.1:54452->127.0.0.1:54456: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:09:19.819 [Gauge] [DEBUG] Runner with PID:7148 has exited
+12-06-2020 12:09:19.819 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:09:19.819 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:09:19.819 [Gauge] [INFO] 
+Total time taken: 13.17s
+12-06-2020 12:09:19.819 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:11:43.719 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:11:43.722 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:11:43.723 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:11:43.723 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:11:43.723 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:11:43.732 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:11:43.732 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:11:43.733 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:11:43.733 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:11:43.735 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:11:44.234 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:11:44.236 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:11:44.330 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:11:44.330 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:11:44.783 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:11:44.905 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:11:45.035 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:11:48.223 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:11:48.223 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:11:48.231 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:11:48.231 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:11:48.232 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:11:48.232 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:11:48.276 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:11:48.276 [Gauge] [DEBUG] Run started
+12-06-2020 12:11:48.277 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:11:48.310 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54640
+12-06-2020 12:11:48.312 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54640
+12-06-2020 12:11:48.312 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:12:01.535 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:12:01.557 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:12:01.557 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:12:01.557 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:12:01.558 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:12:02.042 [Gauge] [INFO] Closing connection [127.0.0.1:54633] cause: read tcp 127.0.0.1:54627->127.0.0.1:54633: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:12:02.161 [Gauge] [DEBUG] Runner with PID:15672 has exited
+12-06-2020 12:12:02.161 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:12:02.161 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:12:02.161 [Gauge] [INFO] 
+Total time taken: 13.257s
+12-06-2020 12:12:02.162 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:15:43.562 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:15:43.564 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:15:43.565 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:15:43.565 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:15:43.566 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:15:43.569 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:15:43.569 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:15:43.570 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:15:43.570 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:15:43.571 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:15:43.858 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:15:43.858 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:15:44.621 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:15:44.624 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:15:45.153 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:15:45.315 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:15:45.466 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:15:47.974 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:15:47.975 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:15:47.983 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:15:47.983 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:15:47.983 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:15:47.983 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:15:48.029 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:15:48.029 [Gauge] [DEBUG] Run started
+12-06-2020 12:15:48.029 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:15:48.061 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54850
+12-06-2020 12:15:48.062 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54850
+12-06-2020 12:15:48.062 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:16:00.944 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:16:00.968 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:16:00.968 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:16:00.968 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:16:00.969 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:16:01.451 [Gauge] [INFO] Closing connection [127.0.0.1:54840] cause: read tcp 127.0.0.1:54836->127.0.0.1:54840: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:16:01.572 [Gauge] [DEBUG] Runner with PID:16180 has exited
+12-06-2020 12:16:01.572 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:16:01.572 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:16:01.572 [Gauge] [INFO] 
+Total time taken: 12.914s
+12-06-2020 12:16:01.572 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:17:50.414 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:17:50.418 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:17:50.420 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:17:50.422 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:17:50.422 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:17:50.432 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:17:50.432 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:17:50.433 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:17:50.433 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:17:50.436 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:17:50.985 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:17:50.985 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:17:51.226 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:17:51.231 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:17:51.934 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:17:52.129 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:17:52.336 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:17:55.127 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:17:55.127 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:17:55.136 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:17:55.136 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:17:55.136 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:17:55.136 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:17:55.185 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:17:55.185 [Gauge] [DEBUG] Run started
+12-06-2020 12:17:55.187 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:17:55.221 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54979
+12-06-2020 12:17:55.222 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54979
+12-06-2020 12:17:55.222 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:18:08.115 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:18:08.135 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:18:08.135 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:18:08.135 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:18:08.136 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:18:08.621 [Gauge] [INFO] Closing connection [127.0.0.1:54971] cause: read tcp 127.0.0.1:54967->127.0.0.1:54971: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:18:08.738 [Gauge] [DEBUG] Runner with PID:12480 has exited
+12-06-2020 12:18:08.738 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:18:08.738 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:18:08.738 [Gauge] [INFO] 
+Total time taken: 12.929s
+12-06-2020 12:18:08.739 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:27:20.329 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:27:20.333 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:27:20.335 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:27:20.336 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:27:20.336 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:27:20.345 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:27:20.345 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:27:20.346 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:27:20.346 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:27:20.349 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:27:20.964 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:27:20.964 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:27:21.432 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:27:21.443 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:27:21.902 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:27:22.027 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:27:22.146 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:27:24.640 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:27:24.640 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:27:24.650 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:27:24.650 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:27:24.650 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:27:24.650 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:27:24.692 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:27:24.693 [Gauge] [DEBUG] Run started
+12-06-2020 12:27:24.694 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:27:24.829 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55444
+12-06-2020 12:27:24.831 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55444
+12-06-2020 12:27:24.831 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:27:38.112 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:27:38.135 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:27:38.135 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:27:38.136 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:27:38.137 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:27:38.624 [Gauge] [INFO] Closing connection [127.0.0.1:55439] cause: read tcp 127.0.0.1:55434->127.0.0.1:55439: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:27:38.741 [Gauge] [DEBUG] Runner with PID:15800 has exited
+12-06-2020 12:27:38.741 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:27:38.741 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:27:38.741 [Gauge] [INFO] 
+Total time taken: 13.417s
+12-06-2020 12:27:38.741 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:30:03.717 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:30:03.719 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:30:03.720 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:30:03.720 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:30:03.721 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:30:03.723 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:30:03.723 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:30:03.724 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:30:03.724 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:30:03.725 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:30:04.048 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:30:04.048 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:30:04.564 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:30:04.568 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:30:04.994 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:30:05.106 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:30:05.212 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:30:08.321 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:30:08.321 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:30:08.329 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:30:08.330 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:30:08.330 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:30:08.330 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:30:08.371 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:30:08.371 [Gauge] [DEBUG] Run started
+12-06-2020 12:30:08.372 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:30:08.404 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55617
+12-06-2020 12:30:08.406 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55617
+12-06-2020 12:30:08.406 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:30:21.522 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:30:21.537 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:30:21.537 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:30:21.537 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:30:21.538 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:30:22.020 [Gauge] [INFO] Closing connection [127.0.0.1:55609] cause: read tcp 127.0.0.1:55605->127.0.0.1:55609: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:30:22.141 [Gauge] [DEBUG] Runner with PID:10688 has exited
+12-06-2020 12:30:22.141 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:30:22.141 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:30:22.141 [Gauge] [INFO] 
+Total time taken: 13.15s
+12-06-2020 12:30:22.142 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:33:43.045 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:33:43.048 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:33:43.050 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:33:43.051 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:33:43.051 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:33:43.055 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:33:43.055 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:33:43.056 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:33:43.056 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:33:43.058 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:33:43.530 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:33:43.530 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:33:43.570 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:33:43.574 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:33:44.248 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:33:44.435 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:33:44.598 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:33:47.598 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:33:47.598 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:33:47.606 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:33:47.606 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:33:47.607 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:33:47.607 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:33:47.649 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:33:47.649 [Gauge] [DEBUG] Run started
+12-06-2020 12:33:47.650 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:33:47.684 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55860
+12-06-2020 12:33:47.685 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55860
+12-06-2020 12:33:47.685 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:34:00.540 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:34:00.559 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:34:00.559 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:34:00.560 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:34:00.560 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:34:01.044 [Gauge] [INFO] Closing connection [127.0.0.1:55849] cause: read tcp 127.0.0.1:55845->127.0.0.1:55849: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:34:01.164 [Gauge] [DEBUG] Runner with PID:15708 has exited
+12-06-2020 12:34:01.164 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:34:01.164 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:34:01.164 [Gauge] [INFO] 
+Total time taken: 12.89s
+12-06-2020 12:34:01.164 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:35:17.448 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:35:17.450 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:35:17.450 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:35:17.451 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:35:17.451 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:35:17.455 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:35:17.455 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:35:17.459 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:35:17.459 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:35:17.460 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:35:17.704 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:35:17.704 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:35:18.064 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:35:18.065 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:35:18.571 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:35:18.708 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:35:18.833 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:35:21.636 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:35:21.636 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:35:21.644 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:35:21.644 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:35:21.644 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:35:21.644 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:35:21.686 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:35:21.686 [Gauge] [DEBUG] Run started
+12-06-2020 12:35:21.687 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:35:21.720 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55970
+12-06-2020 12:35:21.722 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55970
+12-06-2020 12:35:21.722 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:35:35.334 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:35:35.353 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:35:35.353 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:35:35.354 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:35:35.354 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:35:35.840 [Gauge] [INFO] Closing connection [127.0.0.1:55962] cause: read tcp 127.0.0.1:55958->127.0.0.1:55962: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:35:35.958 [Gauge] [DEBUG] Runner with PID:17400 has exited
+12-06-2020 12:35:35.958 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:35:35.958 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:35:35.958 [Gauge] [INFO] 
+Total time taken: 13.647s
+12-06-2020 12:35:35.959 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:38:06.801 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:38:06.804 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:38:06.805 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:38:06.806 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:38:06.806 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:38:06.813 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:38:06.813 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:38:06.814 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:38:06.814 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:38:06.816 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:38:07.260 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:38:07.260 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:38:07.354 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:38:07.358 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:38:08.076 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:38:08.261 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:38:08.424 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:38:11.253 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:38:11.253 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:38:11.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:38:11.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:38:11.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:38:11.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:38:11.302 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:38:11.303 [Gauge] [DEBUG] Run started
+12-06-2020 12:38:11.303 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:38:11.338 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56174
+12-06-2020 12:38:11.339 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56174
+12-06-2020 12:38:11.339 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:38:24.101 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:38:24.134 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:38:24.134 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:38:24.134 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:38:24.135 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:38:24.624 [Gauge] [INFO] Closing connection [127.0.0.1:56165] cause: read tcp 127.0.0.1:56161->127.0.0.1:56165: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:38:24.737 [Gauge] [DEBUG] Runner with PID:17112 has exited
+12-06-2020 12:38:24.737 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:38:24.737 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:38:24.737 [Gauge] [INFO] 
+Total time taken: 12.796s
+12-06-2020 12:38:24.737 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:39:22.574 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:39:22.576 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:39:22.577 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:39:22.578 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:39:22.578 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:39:22.584 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:39:22.584 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:39:22.585 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:39:22.585 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:39:22.586 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:39:23.099 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:39:23.099 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:39:23.401 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:39:23.406 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:39:23.810 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:39:24.047 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:39:24.153 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:39:26.985 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:39:26.986 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:39:26.993 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:39:26.993 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:39:26.994 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:39:26.994 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:39:27.036 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:39:27.036 [Gauge] [DEBUG] Run started
+12-06-2020 12:39:27.037 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:39:27.071 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56288
+12-06-2020 12:39:27.072 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56288
+12-06-2020 12:39:27.073 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:39:39.843 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:39:39.857 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:39:39.858 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:39:39.858 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:39:39.858 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:39:40.198 [Gauge] [INFO] Closing connection [127.0.0.1:56280] cause: read tcp 127.0.0.1:56276->127.0.0.1:56280: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:39:40.260 [Gauge] [DEBUG] Runner with PID:17160 has exited
+12-06-2020 12:39:40.260 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 12:39:40.260 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 12:39:40.260 [Gauge] [INFO] 
+Total time taken: 12.806s
+12-06-2020 12:39:40.260 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:40:24.337 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:40:24.338 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:40:24.339 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:40:24.339 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:40:24.339 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:40:24.341 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:40:24.342 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:40:24.346 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:40:24.346 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:40:24.347 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:40:24.800 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:40:24.800 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:40:25.043 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:40:25.049 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:40:25.511 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:40:25.633 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:40:25.769 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:40:28.846 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:40:28.846 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:40:28.854 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:40:28.854 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:40:28.854 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:40:28.854 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:40:28.900 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:40:28.900 [Gauge] [DEBUG] Run started
+12-06-2020 12:40:28.901 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:40:28.931 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56385
+12-06-2020 12:40:28.933 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56385
+12-06-2020 12:40:28.933 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:40:42.269 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:40:42.287 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:40:42.287 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:40:42.287 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:40:42.288 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:40:42.773 [Gauge] [INFO] Closing connection [127.0.0.1:56376] cause: read tcp 127.0.0.1:56372->127.0.0.1:56376: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:40:42.891 [Gauge] [DEBUG] Runner with PID:2000 has exited
+12-06-2020 12:40:42.891 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:40:42.891 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:40:42.891 [Gauge] [INFO] 
+Total time taken: 13.367s
+12-06-2020 12:40:42.892 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:42:18.740 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:42:18.741 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:42:18.741 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:42:18.741 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:42:18.741 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:42:18.745 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:42:18.745 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:42:18.745 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:42:18.745 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:42:18.747 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:42:19.006 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:42:19.006 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:42:19.288 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:42:19.289 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:42:19.753 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:42:19.869 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:42:19.986 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:42:22.293 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:42:22.294 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:42:22.303 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:42:22.304 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:42:22.304 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:42:22.304 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:42:22.354 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:42:22.355 [Gauge] [DEBUG] Run started
+12-06-2020 12:42:22.356 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:42:22.397 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56522
+12-06-2020 12:42:22.399 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56522
+12-06-2020 12:42:22.399 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:42:35.806 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:42:35.830 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:42:35.830 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:42:35.830 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:42:35.831 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:42:36.314 [Gauge] [INFO] Closing connection [127.0.0.1:56515] cause: read tcp 127.0.0.1:56510->127.0.0.1:56515: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:42:36.435 [Gauge] [DEBUG] Runner with PID:9116 has exited
+12-06-2020 12:42:36.435 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:42:36.435 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:42:36.435 [Gauge] [INFO] 
+Total time taken: 13.45s
+12-06-2020 12:42:36.435 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:43:08.709 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:43:08.711 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:43:08.711 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:43:08.712 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:43:08.712 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:43:08.715 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:43:08.715 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:43:08.715 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:43:08.715 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:43:08.716 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:43:09.151 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:43:09.155 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:43:09.167 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:43:09.167 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:43:09.637 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:43:09.770 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:43:09.898 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:43:13.472 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:43:13.472 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:43:13.480 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:43:13.480 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:43:13.480 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:43:13.481 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:43:13.529 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:43:13.529 [Gauge] [DEBUG] Run started
+12-06-2020 12:43:13.530 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:43:13.564 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56609
+12-06-2020 12:43:13.566 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56609
+12-06-2020 12:43:13.566 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:43:26.511 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:43:26.527 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:43:26.527 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:43:26.527 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:43:26.528 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:43:27.012 [Gauge] [INFO] Closing connection [127.0.0.1:56599] cause: read tcp 127.0.0.1:56594->127.0.0.1:56599: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:43:27.130 [Gauge] [DEBUG] Runner with PID:480 has exited
+12-06-2020 12:43:27.130 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:43:27.130 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:43:27.130 [Gauge] [INFO] 
+Total time taken: 12.982s
+12-06-2020 12:43:27.131 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:47:01.360 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:47:01.361 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:47:01.361 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:47:01.362 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:47:01.362 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:47:01.364 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:47:01.365 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:47:01.365 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:47:01.365 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:47:01.368 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:47:01.790 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:47:01.790 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:47:02.276 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:47:02.279 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:47:02.852 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:47:03.005 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:47:03.142 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:47:05.931 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:47:05.932 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:47:05.941 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:47:05.941 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:47:05.941 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:47:05.941 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:47:05.984 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:47:05.984 [Gauge] [DEBUG] Run started
+12-06-2020 12:47:05.985 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:47:06.020 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56823
+12-06-2020 12:47:06.022 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56823
+12-06-2020 12:47:06.022 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:47:19.862 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:47:19.882 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:47:19.882 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:47:19.882 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:47:19.883 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:47:20.373 [Gauge] [INFO] Closing connection [127.0.0.1:56814] cause: read tcp 127.0.0.1:56810->127.0.0.1:56814: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:47:20.489 [Gauge] [DEBUG] Runner with PID:17016 has exited
+12-06-2020 12:47:20.489 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:47:20.489 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:47:20.489 [Gauge] [INFO] 
+Total time taken: 13.876s
+12-06-2020 12:47:20.490 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:53:04.432 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:53:04.434 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:53:04.435 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:53:04.436 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:53:04.436 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:53:04.444 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:53:04.444 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:53:04.445 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:53:04.445 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:53:04.447 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:53:05.011 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:53:05.014 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:53:05.173 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:53:05.174 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:53:05.490 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:53:05.615 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:53:05.733 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:53:08.778 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:53:08.778 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:53:08.786 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:53:08.787 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:53:08.787 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:53:08.787 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:53:08.833 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:53:08.833 [Gauge] [DEBUG] Run started
+12-06-2020 12:53:08.834 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:53:09.059 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57139
+12-06-2020 12:53:09.061 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57139
+12-06-2020 12:53:09.061 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:53:22.193 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:53:22.207 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:53:22.207 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:53:22.207 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:53:22.208 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:53:22.692 [Gauge] [INFO] Closing connection [127.0.0.1:57135] cause: read tcp 127.0.0.1:57128->127.0.0.1:57135: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:53:22.811 [Gauge] [DEBUG] Runner with PID:10252 has exited
+12-06-2020 12:53:22.811 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:53:22.811 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:53:22.811 [Gauge] [INFO] 
+Total time taken: 13.359s
+12-06-2020 12:53:22.812 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:55:27.106 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:55:27.109 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:55:27.110 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:55:27.112 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:55:27.112 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:55:27.119 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:55:27.120 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:55:27.120 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:55:27.121 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:55:27.122 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:55:27.569 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:55:27.569 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:55:27.890 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:55:27.893 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:55:28.412 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:55:28.563 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:55:28.698 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:55:31.682 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:55:31.682 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:55:31.690 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:55:31.690 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:55:31.691 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:55:31.691 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:55:31.733 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:55:31.734 [Gauge] [DEBUG] Run started
+12-06-2020 12:55:31.735 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:55:31.769 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57282
+12-06-2020 12:55:31.770 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57282
+12-06-2020 12:55:31.771 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:55:44.410 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:55:44.431 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:55:44.431 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:55:44.431 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:55:44.432 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:55:44.915 [Gauge] [INFO] Closing connection [127.0.0.1:57274] cause: read tcp 127.0.0.1:57270->127.0.0.1:57274: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:55:45.034 [Gauge] [DEBUG] Runner with PID:17036 has exited
+12-06-2020 12:55:45.034 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:55:45.034 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:55:45.034 [Gauge] [INFO] 
+Total time taken: 12.674s
+12-06-2020 12:55:45.035 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:57:15.837 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:57:15.839 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:57:15.840 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:57:15.841 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:57:15.841 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:57:15.848 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:57:15.849 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:57:15.849 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:57:15.850 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:57:15.851 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:57:16.347 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:57:16.347 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:57:16.688 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:57:16.692 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:57:17.310 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:57:17.499 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:57:17.695 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:57:20.351 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:57:20.352 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:57:20.359 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:57:20.360 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:57:20.360 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:57:20.360 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:57:20.405 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:57:20.406 [Gauge] [DEBUG] Run started
+12-06-2020 12:57:20.407 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:57:20.441 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57410
+12-06-2020 12:57:20.442 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57410
+12-06-2020 12:57:20.442 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:57:34.021 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:57:34.046 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:57:34.046 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:57:34.046 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:57:34.047 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:57:34.531 [Gauge] [INFO] Closing connection [127.0.0.1:57401] cause: read tcp 127.0.0.1:57396->127.0.0.1:57401: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:57:34.650 [Gauge] [DEBUG] Runner with PID:13156 has exited
+12-06-2020 12:57:34.650 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:57:34.650 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:57:34.650 [Gauge] [INFO] 
+Total time taken: 13.612s
+12-06-2020 12:57:34.651 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:57:59.095 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:57:59.096 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:57:59.097 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:57:59.097 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:57:59.097 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:57:59.101 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:57:59.101 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:57:59.102 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:57:59.102 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:57:59.103 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:57:59.347 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:57:59.347 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:57:59.774 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:57:59.778 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:58:00.293 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:58:00.410 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:58:00.534 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:58:03.406 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:58:03.406 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:58:03.414 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:58:03.414 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:58:03.414 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:58:03.414 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:58:03.458 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:58:03.458 [Gauge] [DEBUG] Run started
+12-06-2020 12:58:03.459 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:58:03.493 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57497
+12-06-2020 12:58:03.495 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57497
+12-06-2020 12:58:03.495 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:58:16.436 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:58:16.460 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:58:16.460 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:58:16.460 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:58:16.461 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:58:16.947 [Gauge] [INFO] Closing connection [127.0.0.1:57489] cause: read tcp 127.0.0.1:57485->127.0.0.1:57489: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:58:17.064 [Gauge] [DEBUG] Runner with PID:13900 has exited
+12-06-2020 12:58:17.064 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:58:17.064 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:58:17.064 [Gauge] [INFO] 
+Total time taken: 12.976s
+12-06-2020 12:58:17.064 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:58:38.832 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:58:38.833 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:58:38.834 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:58:38.835 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:58:38.835 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:58:38.837 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:58:38.837 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:58:38.841 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:58:38.841 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:58:38.843 [Gauge] [DEBUG] Staring java runner
+12-06-2020 12:58:39.172 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 12:58:39.172 [Gauge] [DEBUG] Validation started.
+12-06-2020 12:58:39.686 [Gauge] [DEBUG] Checking updates...
+12-06-2020 12:58:39.690 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:58:41.118 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:58:41.310 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:58:41.660 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 12:58:43.323 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 12:58:43.324 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 12:58:43.331 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 12:58:43.331 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 12:58:43.332 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 12:58:43.332 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 12:58:43.374 [Gauge] [DEBUG] Validation completed.
+12-06-2020 12:58:43.374 [Gauge] [DEBUG] Run started
+12-06-2020 12:58:43.375 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 12:58:43.410 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57580
+12-06-2020 12:58:43.412 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57580
+12-06-2020 12:58:43.412 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 12:58:56.832 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 12:58:56.850 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 12:58:56.850 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 12:58:56.850 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 12:58:56.851 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 12:58:57.334 [Gauge] [INFO] Closing connection [127.0.0.1:57569] cause: read tcp 127.0.0.1:57565->127.0.0.1:57569: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 12:58:57.454 [Gauge] [DEBUG] Runner with PID:15628 has exited
+12-06-2020 12:58:57.454 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:58:57.454 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 12:58:57.454 [Gauge] [INFO] 
+Total time taken: 13.458s
+12-06-2020 12:58:57.454 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 12:59:59.601 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 12:59:59.604 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 12:59:59.605 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 12:59:59.606 [Gauge] [DEBUG] Parsing started.
+12-06-2020 12:59:59.606 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 12:59:59.614 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 12:59:59.614 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 12:59:59.615 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 12:59:59.615 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 12:59:59.618 [Gauge] [DEBUG] Staring java runner
+12-06-2020 13:00:00.169 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 13:00:00.169 [Gauge] [DEBUG] Validation started.
+12-06-2020 13:00:00.399 [Gauge] [DEBUG] Checking updates...
+12-06-2020 13:00:00.403 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:00:00.877 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:00:00.989 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:00:01.103 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:00:04.248 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 13:00:04.248 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 13:00:04.255 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 13:00:04.255 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 13:00:04.256 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 13:00:04.256 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 13:00:04.298 [Gauge] [DEBUG] Validation completed.
+12-06-2020 13:00:04.298 [Gauge] [DEBUG] Run started
+12-06-2020 13:00:04.299 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 13:00:04.331 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57706
+12-06-2020 13:00:04.332 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57706
+12-06-2020 13:00:04.333 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 13:00:27.481 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 13:00:27.500 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 13:00:27.500 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 13:00:27.500 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 13:00:27.501 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 13:00:27.841 [Gauge] [INFO] Closing connection [127.0.0.1:57698] cause: read tcp 127.0.0.1:57694->127.0.0.1:57698: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 13:00:27.903 [Gauge] [DEBUG] Runner with PID:17184 has exited
+12-06-2020 13:00:27.903 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:00:27.903 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:00:27.903 [Gauge] [INFO] 
+Total time taken: 23.182s
+12-06-2020 13:00:27.903 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 13:22:20.602 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 13:22:20.604 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 13:22:20.605 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 13:22:20.607 [Gauge] [DEBUG] Parsing started.
+12-06-2020 13:22:20.607 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 13:22:20.613 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 13:22:20.613 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 13:22:20.618 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 13:22:20.618 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 13:22:20.621 [Gauge] [DEBUG] Staring java runner
+12-06-2020 13:22:21.178 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 13:22:21.178 [Gauge] [DEBUG] Validation started.
+12-06-2020 13:22:21.930 [Gauge] [DEBUG] Checking updates...
+12-06-2020 13:22:21.935 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:22:22.627 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:22:22.843 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:22:23.034 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:22:25.070 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 13:22:25.070 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 13:22:25.078 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 13:22:25.078 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 13:22:25.078 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 13:22:25.078 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 13:22:25.132 [Gauge] [DEBUG] Validation completed.
+12-06-2020 13:22:25.133 [Gauge] [DEBUG] Run started
+12-06-2020 13:22:25.133 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 13:22:25.364 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 58893
+12-06-2020 13:22:25.365 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 58893
+12-06-2020 13:22:25.365 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 13:22:38.483 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 13:22:38.499 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 13:22:38.499 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 13:22:38.499 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 13:22:38.500 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 13:22:38.840 [Gauge] [INFO] Closing connection [127.0.0.1:58886] cause: read tcp 127.0.0.1:58880->127.0.0.1:58886: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 13:22:38.902 [Gauge] [DEBUG] Runner with PID:17880 has exited
+12-06-2020 13:22:38.902 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:22:38.902 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:22:38.902 [Gauge] [INFO] 
+Total time taken: 13.349s
+12-06-2020 13:22:38.903 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 13:23:08.882 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 13:23:08.883 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 13:23:08.884 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 13:23:08.884 [Gauge] [DEBUG] Parsing started.
+12-06-2020 13:23:08.884 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 13:23:08.887 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 13:23:08.887 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 13:23:08.887 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 13:23:08.887 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 13:23:08.888 [Gauge] [DEBUG] Staring java runner
+12-06-2020 13:23:09.134 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 13:23:09.134 [Gauge] [DEBUG] Validation started.
+12-06-2020 13:23:09.736 [Gauge] [DEBUG] Checking updates...
+12-06-2020 13:23:09.739 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:23:10.195 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:23:10.318 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:23:10.420 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:23:12.881 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 13:23:12.882 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 13:23:12.893 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 13:23:12.893 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 13:23:12.894 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 13:23:12.894 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 13:23:12.950 [Gauge] [DEBUG] Validation completed.
+12-06-2020 13:23:12.950 [Gauge] [DEBUG] Run started
+12-06-2020 13:23:12.952 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 13:23:12.991 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 58980
+12-06-2020 13:23:12.993 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 58980
+12-06-2020 13:23:12.993 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 13:23:27.835 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 13:23:27.850 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 13:23:27.851 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 13:23:27.851 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 13:23:27.851 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 13:23:28.196 [Gauge] [INFO] Closing connection [127.0.0.1:58971] cause: read tcp 127.0.0.1:58967->127.0.0.1:58971: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 13:23:28.254 [Gauge] [DEBUG] Runner with PID:15292 has exited
+12-06-2020 13:23:28.254 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:23:28.254 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:23:28.254 [Gauge] [INFO] 
+Total time taken: 14.883s
+12-06-2020 13:23:28.255 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 13:23:36.922 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 13:23:36.923 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 13:23:36.924 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 13:23:36.924 [Gauge] [DEBUG] Parsing started.
+12-06-2020 13:23:36.924 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 13:23:36.927 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 13:23:36.928 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 13:23:36.928 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 13:23:36.928 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 13:23:36.928 [Gauge] [DEBUG] Staring java runner
+12-06-2020 13:23:37.404 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 13:23:37.404 [Gauge] [DEBUG] Validation started.
+12-06-2020 13:23:37.497 [Gauge] [DEBUG] Checking updates...
+12-06-2020 13:23:37.500 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:23:38.201 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:23:38.357 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:23:38.503 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:23:41.442 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 13:23:41.442 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 13:23:41.450 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 13:23:41.450 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 13:23:41.450 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 13:23:41.450 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 13:23:41.501 [Gauge] [DEBUG] Validation completed.
+12-06-2020 13:23:41.501 [Gauge] [DEBUG] Run started
+12-06-2020 13:23:41.502 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 13:23:41.537 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59054
+12-06-2020 13:23:41.539 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59054
+12-06-2020 13:23:41.539 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 13:23:54.457 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 13:23:54.483 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 13:23:54.483 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 13:23:54.483 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 13:23:54.483 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 13:23:54.827 [Gauge] [INFO] Closing connection [127.0.0.1:59046] cause: read tcp 127.0.0.1:59042->127.0.0.1:59046: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 13:23:54.985 [Gauge] [DEBUG] Runner with PID:15372 has exited
+12-06-2020 13:23:54.985 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:23:54.985 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:23:54.985 [Gauge] [INFO] 
+Total time taken: 12.955s
+12-06-2020 13:23:54.985 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 13:24:21.620 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 13:24:21.621 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 13:24:21.621 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 13:24:21.621 [Gauge] [DEBUG] Parsing started.
+12-06-2020 13:24:21.621 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 13:24:21.624 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 13:24:21.624 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 13:24:21.629 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 13:24:21.629 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 13:24:21.629 [Gauge] [DEBUG] Staring java runner
+12-06-2020 13:24:21.868 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 13:24:21.868 [Gauge] [DEBUG] Validation started.
+12-06-2020 13:24:22.356 [Gauge] [DEBUG] Checking updates...
+12-06-2020 13:24:22.359 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:24:22.841 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:24:22.958 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:24:23.101 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:24:25.760 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 13:24:25.760 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 13:24:25.767 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 13:24:25.767 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 13:24:25.768 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 13:24:25.768 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 13:24:25.811 [Gauge] [DEBUG] Validation completed.
+12-06-2020 13:24:25.811 [Gauge] [DEBUG] Run started
+12-06-2020 13:24:25.812 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 13:24:25.844 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59135
+12-06-2020 13:24:25.846 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59135
+12-06-2020 13:24:25.846 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 13:24:38.614 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 13:24:38.634 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 13:24:38.634 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 13:24:38.637 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 13:24:38.638 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 13:24:38.977 [Gauge] [INFO] Closing connection [127.0.0.1:59127] cause: read tcp 127.0.0.1:59124->127.0.0.1:59127: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 13:24:39.040 [Gauge] [DEBUG] Runner with PID:7488 has exited
+12-06-2020 13:24:39.040 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:24:39.040 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:24:39.040 [Gauge] [INFO] 
+Total time taken: 12.802s
+12-06-2020 13:24:39.040 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 13:25:17.465 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 13:25:17.468 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 13:25:17.469 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 13:25:17.470 [Gauge] [DEBUG] Parsing started.
+12-06-2020 13:25:17.470 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 13:25:17.477 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 13:25:17.477 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 13:25:17.478 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 13:25:17.478 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 13:25:17.480 [Gauge] [DEBUG] Staring java runner
+12-06-2020 13:25:17.948 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 13:25:17.948 [Gauge] [DEBUG] Validation started.
+12-06-2020 13:25:18.548 [Gauge] [DEBUG] Checking updates...
+12-06-2020 13:25:18.551 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:25:19.075 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:25:19.235 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:25:19.341 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:25:22.131 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 13:25:22.131 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 13:25:22.141 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 13:25:22.141 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 13:25:22.141 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 13:25:22.141 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 13:25:22.186 [Gauge] [DEBUG] Validation completed.
+12-06-2020 13:25:22.187 [Gauge] [DEBUG] Run started
+12-06-2020 13:25:22.188 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 13:25:22.222 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59223
+12-06-2020 13:25:22.223 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59223
+12-06-2020 13:25:22.223 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 13:25:35.411 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 13:25:35.427 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 13:25:35.427 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 13:25:35.427 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 13:25:35.428 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 13:25:35.917 [Gauge] [INFO] Closing connection [127.0.0.1:59213] cause: read tcp 127.0.0.1:59208->127.0.0.1:59213: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 13:25:36.031 [Gauge] [DEBUG] Runner with PID:15468 has exited
+12-06-2020 13:25:36.031 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 13:25:36.031 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-06-2020 13:25:36.031 [Gauge] [INFO] 
+Total time taken: 13.222s
+12-06-2020 13:25:36.031 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 13:26:16.920 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 13:26:16.923 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 13:26:16.924 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 13:26:16.925 [Gauge] [DEBUG] Parsing started.
+12-06-2020 13:26:16.925 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 13:26:16.933 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 13:26:16.933 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 13:26:16.937 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 13:26:16.937 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 13:26:16.939 [Gauge] [DEBUG] Staring java runner
+12-06-2020 13:26:17.400 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 13:26:17.400 [Gauge] [DEBUG] Validation started.
+12-06-2020 13:26:17.739 [Gauge] [DEBUG] Checking updates...
+12-06-2020 13:26:17.743 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:26:18.203 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:26:18.323 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:26:18.442 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:26:21.480 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 13:26:21.480 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 13:26:21.489 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 13:26:21.489 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 13:26:21.489 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 13:26:21.489 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 13:26:21.533 [Gauge] [DEBUG] Validation completed.
+12-06-2020 13:26:21.534 [Gauge] [DEBUG] Run started
+12-06-2020 13:26:21.535 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 13:26:21.570 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59323
+12-06-2020 13:26:21.572 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59323
+12-06-2020 13:26:21.572 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 13:26:34.394 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 13:26:34.417 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 13:26:34.417 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 13:26:34.417 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 13:26:34.418 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 13:26:34.757 [Gauge] [INFO] Closing connection [127.0.0.1:59314] cause: read tcp 127.0.0.1:59310->127.0.0.1:59314: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 13:26:34.819 [Gauge] [DEBUG] Runner with PID:18852 has exited
+12-06-2020 13:26:34.819 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:26:34.819 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:26:34.819 [Gauge] [INFO] 
+Total time taken: 12.859s
+12-06-2020 13:26:34.819 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 13:32:39.818 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 13:32:39.821 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 13:32:39.822 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 13:32:39.823 [Gauge] [DEBUG] Parsing started.
+12-06-2020 13:32:39.823 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 13:32:39.828 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 13:32:39.829 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 13:32:39.829 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 13:32:39.829 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 13:32:39.831 [Gauge] [DEBUG] Staring java runner
+12-06-2020 13:32:40.379 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 13:32:40.379 [Gauge] [DEBUG] Validation started.
+12-06-2020 13:32:40.638 [Gauge] [DEBUG] Checking updates...
+12-06-2020 13:32:40.640 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:32:41.125 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:32:41.273 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:32:41.410 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:32:44.782 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 13:32:44.782 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 13:32:44.791 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 13:32:44.791 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 13:32:44.792 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 13:32:44.792 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 13:32:44.841 [Gauge] [DEBUG] Validation completed.
+12-06-2020 13:32:44.841 [Gauge] [DEBUG] Run started
+12-06-2020 13:32:44.842 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 13:32:44.875 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59653
+12-06-2020 13:32:44.877 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59653
+12-06-2020 13:32:44.877 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 13:32:58.051 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 13:32:58.084 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 13:32:58.084 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 13:32:58.084 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 13:32:58.085 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 13:32:58.428 [Gauge] [INFO] Closing connection [127.0.0.1:59643] cause: read tcp 127.0.0.1:59638->127.0.0.1:59643: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 13:32:58.588 [Gauge] [DEBUG] Runner with PID:16784 has exited
+12-06-2020 13:32:58.588 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:32:58.588 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:32:58.588 [Gauge] [INFO] 
+Total time taken: 13.207s
+12-06-2020 13:32:58.589 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+12-06-2020 13:34:30.515 [Gauge] [DEBUG] Successfully formatted spec: specs\example.spec
+12-06-2020 13:36:42.850 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\earch\gaugeTraductor\.gauge\screenshots
+12-06-2020 13:36:42.852 [Gauge] [DEBUG] Plugin java is already installed.
+12-06-2020 13:36:42.852 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-06-2020 13:36:42.852 [Gauge] [DEBUG] Parsing started.
+12-06-2020 13:36:42.852 [Gauge] [DEBUG] Started concepts parsing.
+12-06-2020 13:36:42.856 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-06-2020 13:36:42.856 [Gauge] [DEBUG] Started specifications parsing.
+12-06-2020 13:36:42.857 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-06-2020 13:36:42.857 [Gauge] [DEBUG] Parsing completed.
+12-06-2020 13:36:42.858 [Gauge] [DEBUG] Staring java runner
+12-06-2020 13:36:43.286 [Gauge] [DEBUG] Established connection to runner.
+12-06-2020 13:36:43.286 [Gauge] [DEBUG] Validation started.
+12-06-2020 13:36:43.540 [Gauge] [DEBUG] Checking updates...
+12-06-2020 13:36:43.545 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:36:43.995 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:36:44.112 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:36:44.269 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=windows&a=amd64
+12-06-2020 13:36:47.355 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User enters the page <https://translate.google.com/?hl=es>" > 
+12-06-2020 13:36:47.356 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User enters the page {}" parameterizedStepValue:"User enters the page <https://translate.google.com/?hl=es>" parameters:"https://translate.google.com/?hl=es" > > 
+12-06-2020 13:36:47.364 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"he should see the Successful translation <Hello>" > 
+12-06-2020 13:36:47.364 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"he should see the Successful translation {}" parameterizedStepValue:"he should see the Successful translation <Hello>" parameters:"Hello" > > 
+12-06-2020 13:36:47.364 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"He enters the world <Hola>" > 
+12-06-2020 13:36:47.364 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"He enters the world {}" parameterizedStepValue:"He enters the world <Hola>" parameters:"Hola" > > 
+12-06-2020 13:36:47.407 [Gauge] [DEBUG] Validation completed.
+12-06-2020 13:36:47.407 [Gauge] [DEBUG] Run started
+12-06-2020 13:36:47.408 [Gauge] [DEBUG] Starting Html Report plugin
+12-06-2020 13:36:47.442 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59867
+12-06-2020 13:36:47.443 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59867
+12-06-2020 13:36:47.443 [Gauge] [DEBUG] Initialising suite data store.
+12-06-2020 13:37:00.572 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-06-2020 13:37:00.587 [html-report] [INFO] Successfully generated html-report to => C:\earch\gaugeTraductor\reports\html-report\index.html
+12-06-2020 13:37:00.587 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sebastian.gutierrez\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+12-06-2020 13:37:00.587 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-06-2020 13:37:00.588 [Gauge] [DEBUG] Sending kill message to runner.
+12-06-2020 13:37:00.937 [Gauge] [INFO] Closing connection [127.0.0.1:59858] cause: read tcp 127.0.0.1:59850->127.0.0.1:59858: wsarecv: Se ha forzado la interrupción de una conexión existente por el host remoto.
+12-06-2020 13:37:00.992 [Gauge] [DEBUG] Runner with PID:17540 has exited
+12-06-2020 13:37:00.992 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:37:00.992 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-06-2020 13:37:00.992 [Gauge] [INFO] 
+Total time taken: 13.164s
+12-06-2020 13:37:00.992 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
